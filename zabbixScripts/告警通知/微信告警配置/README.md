@@ -18,7 +18,7 @@
 
 部门ID可以将发到部门
 
-![img](/assets/clip_image002.jpg)
+![img](assets/clip_image002.jpg)
 
 #### 应用ID与Secret
 
@@ -26,24 +26,24 @@
 
 - **创建应用**：
 
-![img](/assets/clip_image004.jpg)
+![img](assets/clip_image004.jpg)
 
 设置应用的信息
 
-![img](/assets/clip_image005.png)
+![img](assets/clip_image005.png)
 
 配置应用的可见范围，可以选择个人或部门
 
-![img](/assets/clip_image007.jpg)
+![img](assets/clip_image007.jpg)
 
 创建完成后点击应用
 
-![img](/assets/clip_image009.jpg)
+![img](assets/clip_image009.jpg)
 
 可以看到AgentId和Secret
 
-![img](/assets/clip_image011.jpg)
+![img](assets/clip_image011.jpg)
 
 - **CorpID**
 
-![img](/assets/clip_image013.jpg)
+![img](assets/clip_image013.jpg)
