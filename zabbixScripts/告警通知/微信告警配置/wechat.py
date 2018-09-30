@@ -41,8 +41,8 @@ if __name__ == '__main__':
     Subject = sys.argv[2]                                                           # zabbix传过来的第二个参数
     Content = sys.argv[3]                                                           # zabbix传过来的第三个参数
 
-    Corpid = "ww0a6dc6e403d18969"                                                   # CorpID是企业号的标识
-    Secret = "dGyoyhRwXpNOAIpD1mWAPgb02LEsNOMmozGwB2-7ryg"     # Secret是管理组凭证密钥
+    Corpid = ""                                                   # CorpID是企业号的标识
+    Secret = ""     # Secret是管理组凭证密钥
     #Tagid = "1"                                                                     # 通讯录标签ID
     Agentid = "1000002"                                                                   # 应用ID
     #Partyid = "2"                                                                  # 部门ID
