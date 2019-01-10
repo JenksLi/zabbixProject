@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 # coding=utf-8
 import time
 import json
@@ -102,7 +101,7 @@ def get_item(authid, hostid):
     return post_data(data)
 
 
-def get_item_history(authid, itemid):
+def get_item_history(authid, itemid, timefrom):
     # request json
     data = json.dumps(
         {
@@ -113,6 +112,7 @@ def get_item_history(authid, itemid):
                 "itemids": itemid.split(','),
                 "history": 3,
                 "limit": 1,
+                "time_till":'{}'.format(timefrom)
             },
             "auth": "{}".format(authid),  # theauth id is what auth script returns, remeber it is string
             "id": 1,
@@ -171,7 +171,7 @@ if __name__ == '__main__':
         item = get_item(authid, host.get('hostid'))
         for i in item:
             i['lastclock'] = time_covert(i.get('lastclock'))
-            print get_item_history(authid, i.get('itemid'))
+            print get_item_history(authid, i.get('itemid'), int(time.time()))
             # host.update({'item': i})
             # print host
     #         string = string + table_msg.format(host['name'], host['item']['name'], host['item']['lastclock'], host['item']['lastvalue'])

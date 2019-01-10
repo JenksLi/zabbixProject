@@ -1,0 +1,3 @@
+# hostName, visibleName, hostIp, groupName, template, interfaceType, port, inventoryType, proxyName
+group-W-host01,,192.168.1.1,APP Servers;生产组;Linux servers,Template OS Windows,1,10050,生产业务,192.168.174.128
+group-W-host02,,192.168.1.2,Discovered hosts;测试组,Template OS Windows,1,10050,测试业务,192.168.174.231
