@@ -1,0 +1,3 @@
+Hostname(与zabbix_agent.conf的hostname对应),监控显示字段,IP地址,主机群组(多个群组用分号;分隔),监控模板(多个模板用分号;分隔),Proxy名称,维护人(inventory Contact),业务名称(inventory Type),
+t-app-host,t-app-host,192.168.1.1,Windows servers;Linux servers,Template OS Windows;Template MongoDB,,张三,测试业务,
+t-db-host,t-db-host,192.168.1.2,Windows servers,Template OS Windows,,李四,重要业务,
